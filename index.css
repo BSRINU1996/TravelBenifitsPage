@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    min-height: 100vh;
+}
+
+.main-heading {
+    color: #183b56;
+    font-style: "roboto";
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.main-description {
+    font-size: 9px;
+    color: #5a7184;
+    text-align: center;
+}
+
+.benifits-container {
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 900px;
+    padding: 10px;
+
+}
+
+.benifit-1-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border:2px solid blue; */
+}
+
+.image {
+    height: 40px;
+    width: 40px;
+}
+
+.benifit-heading {
+    color: #183b56;
+    font-size: 10px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.benifit-description {
+    font-size: 7px;
+    color: #5a7184;
+}
